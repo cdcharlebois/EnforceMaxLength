@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="EnforceMaxLength.widget.EnforceMaxLength" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>EnforceMaxLength</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="target" type="string" required="true">
+          <caption>Target</caption>
+          <category>General</category>
+          <description>The Mendix name of the widget you want to target. i.e. "textBox8"</description>
+        </property>
+    </properties>
+</widget>
