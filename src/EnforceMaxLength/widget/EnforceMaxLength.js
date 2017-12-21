@@ -44,7 +44,7 @@ define([
                     var inputNode = formGroupNode.querySelector("input");
                     if (inputNode) {
                         if (inputNode.hasAttribute("maxlength")) {
-                            this.connect(inputNode, "keydown", function(e) {
+                            this.connect(inputNode, "keyup", function(e) {
                                 if (e.target.value.length > inputNode.getAttribute("maxlength") * 1) {
                                     e.target.value = e.target.value.substr(0, inputNode.getAttribute("maxlength") * 1);
                                 }
